@@ -4,17 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Deseret Liberia</title>
 </head>
-<body>
- <h1>Aprendiendo JS en coder</h1>
- <br>
- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos officia, minus repudiandae sit a recusandae odio quia voluptatum facere vel illo aut asperiores sed corrupti id, autem deleniti ab consectetur.
- Eius mollitia sapiente, libero molestias quasi ipsum repudiandae natus aspernatur reiciendis quisquam velit laborum, ullam dolorem aut repellat sunt blanditiis? Sit, voluptate quo? Rem sapiente ducimus saepe sequi odio quos!
- </p>
+<header>
 
- <button class="producto-boton"> Comprar producto</button>
+    <nav>
+        <h1>Deseret Liberia</h1>
+        <div class="navbar">
+            <li>Biblioteca</li>
+            <li>Contacto</li>
+            <li><button id="carrito">Mis Compras</button></li>
+            
+        </div>
+    </nav>
+</header>
+<body>
+ <hr>
+ <h2>Historias de Bruce Alexander</h2>
  <br>
+ <h3>¿Quien es Bruce Alexander?</h3>
+ <p>Bruce Alexander Cook (1932 - 9 de noviembre de 2003) fue un periodista y autor estadounidense que también escribió bajo el seudónimo de Bruce Alexander , creando novelas históricas sobre un inglés ciego del siglo XVIII y también un detective mexicano-estadounidense del siglo XX.</p>
+ <p>Estudió Letras en la Universidad de Loyola en Chicago, y se dedicó al periodismo, trabajando como crítico literario y cinematográfico en varios periódicos, tales como el Detroit Times y Los Ángeles Daily News. También trabajó en el mundo editorial, siendo editor del semanal Newsweek.
+
+    Es autor de novelas de corte policíaco, destacando una serie sobre un personaje real, el magistrado Sir John Fielding, que era ciego.</p>
+ <section class="libro-producto">
+    <div class="libro-producto-1">
+<img src="./resoursces/img/justicia-ciega.jpg" alt="justicia-ciega">
+<h3 id="libro">Justicia Ciega</h3>
+<h4>$300</h4>
+ <button id="mybook" class="producto0"> Lo quiero comprar!</button></div>
+
+ <div   class="libro-producto-2">
+    <img src="./resoursces/img/asesinato.grub.street.jpg" alt="asesinato-grub-street">
+    <h3 id="libroA"></h3>
+    <h4 >$350</h4>
+     <button id="mybookA" class="producto1"> Lo quiero comprar!</button></div>
+
+ <div class="libro-producto-3">
+        <img src="./resoursces/img/experiencia-traiciòn.jpg" alt="experiencia-traiciòn">
+        <h3 id="libroE"></h3>
+        <h4  >$600</h4>
+         <button id="mybookE" class="producto2"> Lo quiero comprar!</button></div>
+
+ <div class="libro-producto-4">
+            <img src="./resoursces/img/personas.desconocidas.jpg" alt="personas-desconocidas">
+            <h3 id="libroP"></h3>
+            <h4>$500</h4>
+             <button id="mybookP" class="producto3"> Lo quiero comprar!</button></div>
+
+ <div class="libro-producto-R">
+                <img src="./resoursces/img/reglas-de-.jpg" alt="reglas-compromiso">
+                <h3 id="libroR"></h3>
+                <h4>$800</h4>
+                 <button  id="mybookR" class="producto4"> Lo quiero comprar!</button></div>
+</section>    
+<hr>
+<h2>Formulario de compra</h2>
+
+
+<form action="" class="formulibro">
+    <input id="compra" type="text" placeholder="Nombre del libro">
+    <input  id="precio" type="number" placeholder="Cantidad de unidades">
+    <input  id="enviar" type="submit" placeholder="Enviar solicitud" value="Comprar este libro">
+    <input id="newsletter" type="text" placeholder="¿Queres recibir novedades?">
+    <input id="acepto" type="radio" class="Submit-si" >Si <input type="radio"> No
+</form>
+
+ <hr>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
 <script src="./main.js"></script>    
 
 

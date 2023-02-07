@@ -1,0 +1,41 @@
+ 
+  {
+    "productos": [
+      {
+        "nombre": "Justicia Ciega",
+        "autor": "Bruce Alexander",
+        "disponible": true,
+        "genero": "policiales",
+        "precio": 300
+      },
+      {
+        "nombre": "Asesinato en Grub Street",
+        "autor": "Bruce Alexander",
+        "disponible": true,
+        "genero": "policiales",
+        "precio": 350
+      },
+      {
+        "nombre": "Experimentando la traición",
+        "autor": "Bruce Alexander",
+        "disponible": true,
+        "genero": "policiales",
+        "precio": 600
+      },
+      {
+        "nombre": "Persona o personas desconocidas",
+        "autor": "Bruce Alexander",
+        "disponible": false,
+        "genero": "policiales",
+        "precio": 500
+      },
+      {
+        "nombre": "Reglas del compromiso",
+        "autor": "Bruce Alexander",
+        "disponible": false,
+        "genero": "policiales",
+        "precio": 800
+      }
+    ]
+  }
+  

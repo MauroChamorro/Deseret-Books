@@ -1,0 +1,12 @@
+
+.libro-producto{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;  
+}
+.navbar{
+  display:flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  list-style: none;
+}
